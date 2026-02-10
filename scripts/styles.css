@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    font-size: x-large;
+    -webkit-user-select: none;
+    user-select: none;
+    background-image: url("../images/background/creeperbk.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+#gameplay {
+    background: rgba(0, 0, 0, 0.271);
+    min-height: 600px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#section-two {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    
+}
+
+#eat-drink, #sleep, #clean, #play, #walk, #age {
+    background: wheat;
+    padding: 30px 140px;
+    z-index: 10;
+}
+
+#cleanbar{
+    height: 10px;
+    width: 100px;
+    background-color: brown;
+}
+
