@@ -7,23 +7,11 @@
     <title>Tamagotchi</title>
 </head>
 <body>
-   <div id="section-one">
-        <div id="sleep">Sleep</div>
-        <div id="walk">Walk</div>
-        <div id="age">Age</div>
-   </div>  
-   <div id="gameplay">
-   </div>
-    <div id="section-two">
-        <div id="hunger">mat<button id="feedButton" onclick="feed(25)">Feed</button> 
-    <progress id="hungerBar" value="${hunger}" max="${maxHunger}"></progress></div>
-        <div id="clean">Wash</button>
-            
-        </div>
-        <div id="play">Play</div>
-    </div>
+
+<div id="mainView"></div>
 
     <script src="./scripts/model.js"></script>
+    <script src="./scripts/view.js"></script>
     <script src="./scripts/index.js"></script>
     <script src="./scripts/hunger.js"></script>
     <script src="./scripts/health.js"></script>
