@@ -22,15 +22,15 @@ function increaseHealth(){
 function updateImg() {
   const tamagotchiImg = document.getElementById("tamagotchiImg")
   if (health <= 0) {
-    tamagotchiImg.src = "../images/dead/lavachicken.jpg"
+    tamagotchiImg.src = "./images/dead/lavachicken.jpg"
     document.getElementById("top-sec").style.visibility = "hidden";
     document.getElementById("bottom-sec").style.visibility = "hidden";
     document.getElementById("yousuck").innerHTML += "YOU SUCK";
   }
   else if (health < 50) {
-    tamagotchiImg.src = "../images/evolve/animal.png"  
+    tamagotchiImg.src = "./images/evolve/animal.png"  
   }
   else if (health >51){
-    tamagotchiImg.src = "../images/evolve/diamond.png"
+    tamagotchiImg.src = "./images/evolve/diamond.png"
   }
 }
